@@ -10,26 +10,9 @@
 }
 
 body {
-    background-color: black;
+    background-color: rgb(9, 121, 105);
     color: white;
     font-family: 'Poppins', sans-serif;
-}
-
-/* Smooth scrolling */
-html {
-    scroll-behavior: smooth;
-    scroll-padding-top: 80px; /* Adjust based on your navbar height */
-}
-
-@media (prefers-reduced-motion: reduce) {
-    html {
-        scroll-behavior: auto;
-    }
-}
-
-/* Ensure sections have proper spacing */
-section {
-    padding: 80px 0 40px 0;
 }
 
 nav {
@@ -37,7 +20,7 @@ nav {
     justify-content: space-around;
     align-items: center;
     height: 80px;
-    background-color: gray;
+    background-color: rgb(9, 121, 105);
 }
 
 nav ul {
@@ -57,15 +40,15 @@ nav ul li a {
 
 hr {
     border: none;
-    background-color: gray;
+    background-color: white;
     height: 1.2px;
     margin: 20px 84px;
     /* Fixed margin */
 }
 
 nav ul li a:hover {
-    color: black;
-    font-size: 1.04rem;
+    color: rgb(2, 48, 32);
+    font-size: 1.01rem;
 }
 
 .left {
@@ -92,9 +75,9 @@ nav ul li a:hover {
     padding: 7px;
     font-family: Merienda;
     font-weight: 700;
-    background-color: black;
+    background-color: rgb(9, 121, 105);
     color: white;
-    border: 2px solid white;
+    border: 2px solid rgb(0, 163, 108);
     border-radius: 6px;
     font-size: 13px;
     cursor: pointer;
@@ -112,7 +95,7 @@ nav ul li a:hover {
 
 #element {
     /* color: #0620a2; */
-    color: #23bdbd;
+    color: white;
     font-weight: 600;
     font-family: josefin sans;
 }
@@ -140,9 +123,9 @@ nav ul li a:hover {
     margin-top: 15px;
     font-family: Merienda;
     font-weight: 800;
-    background-color: black;
+    background-color: rgb(9, 121, 105);
     color: white;
-    border: 2px solid white;
+    border: 2px solid rgb(0, 163, 108);
     border-radius: 6px;
     font-size: 20px;
     cursor: pointer;
@@ -157,7 +140,7 @@ nav ul li a:hover {
     width: 90%;
     max-width: 100%;
     border-radius: 10px;
-    box-shadow: 0 3px 9px gray;
+    box-shadow: 0 3px 9px white;
     /* Subtle white shadow */
 }
 
@@ -289,7 +272,7 @@ nav ul li a:hover {
 }
 
 .project-card {
-    background: #1a1a1a;
+    background: white;
     border-radius: 10px;
     overflow: hidden;
     transition: transform 0.3s ease;
@@ -312,10 +295,11 @@ nav ul li a:hover {
 .project-info h3 {
     font-size: 1.4rem;
     margin-bottom: 0.8rem;
+    color: black;
 }
 
 .project-info p {
-    color: #ccc;
+    color: black;
     line-height: 1.6;
     margin-bottom: 1.2rem;
 }
@@ -328,7 +312,7 @@ nav ul li a:hover {
 }
 
 .tech-stack span {
-    background: #252525;
+    background: rgb(0, 163, 108);
     padding: 0.4rem 1rem;
     border-radius: 20px;
     font-size: 0.9rem;
@@ -349,13 +333,13 @@ nav ul li a:hover {
 }
 
 .demo-btn {
-    background: #2563eb;
+    background: rgb(9, 121, 105);
     color: white;
 }
 
 .code-btn {
     background: transparent;
-    color: #fff;
+    color: black;
     border: 1px solid #333;
 }
 
@@ -433,10 +417,10 @@ nav ul li a:hover {
 }
 
 .submit-btn {
-    background: black;
+    background: rgb(9, 121, 105);
     color: white;
     padding: 12px 30px;
-    border: 2px solid white;
+    border: 2px solid rgb(0, 163, 108);
     border-radius: 5px;
     font-size: 1rem;
     cursor: pointer;
@@ -445,7 +429,7 @@ nav ul li a:hover {
 }
 
 .submit-btn:hover {
-    background: gray;
+    background: rgb(0, 163, 108);
 }
 
 /* Contact Details + Profile Image (Right Side) */
@@ -462,7 +446,7 @@ nav ul li a:hover {
     margin: 0 auto 20px auto;
     border-radius: 50%;
     overflow: hidden;
-    border: 3px solid #007bff;
+    border: 3px solid white;
 }
 
 .profile-image img {
@@ -481,7 +465,7 @@ nav ul li a:hover {
 
 .detail-item i {
     font-size: 1.5rem;
-    color: #007bff;
+    color: black;
     margin-right: 15px;
 }
 
