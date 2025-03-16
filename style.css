@@ -15,18 +15,6 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-/* Smooth scrolling CSS */
-html {
-    scroll-behavior: smooth;
-    scroll-padding-top: 60px; /* Adjust based on your navbar height */
-}
-
-@media (prefers-reduced-motion: reduce) {
-    html {
-        scroll-behavior: auto;
-    }
-}
-
 nav {
     display: flex;
     justify-content: space-around;
