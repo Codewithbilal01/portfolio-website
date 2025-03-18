@@ -10,7 +10,7 @@
 }
 
 body {
-    background-color: rgb(9, 121, 105);
+    background-color: black;
     color: white;
     font-family: 'Poppins', sans-serif;
 }
@@ -20,7 +20,7 @@ nav {
     justify-content: space-around;
     align-items: center;
     height: 80px;
-    background-color: rgb(9, 121, 105);
+    background-color: black;
 }
 
 nav ul {
@@ -47,8 +47,8 @@ hr {
 }
 
 nav ul li a:hover {
-    color: rgb(2, 48, 32);
-    font-size: 1.01rem;
+    color: red;
+    font-size: 1rem;
 }
 
 .left {
@@ -75,9 +75,9 @@ nav ul li a:hover {
     padding: 7px;
     font-family: Merienda;
     font-weight: 700;
-    background-color: rgb(9, 121, 105);
+    background-color: red;
     color: white;
-    border: 2px solid rgb(0, 163, 108);
+    border: 2px solid rgb(220, 20, 60);
     border-radius: 6px;
     font-size: 13px;
     cursor: pointer;
@@ -95,7 +95,7 @@ nav ul li a:hover {
 
 #element {
     /* color: #0620a2; */
-    color: white;
+    color: red;
     font-weight: 600;
     font-family: josefin sans;
 }
@@ -123,9 +123,9 @@ nav ul li a:hover {
     margin-top: 15px;
     font-family: Merienda;
     font-weight: 800;
-    background-color: rgb(9, 121, 105);
+    background-color: red;
     color: white;
-    border: 2px solid rgb(0, 163, 108);
+    border: 2px solid rgb(220, 20, 60);
     border-radius: 6px;
     font-size: 20px;
     cursor: pointer;
@@ -140,7 +140,7 @@ nav ul li a:hover {
     width: 90%;
     max-width: 100%;
     border-radius: 10px;
-    box-shadow: 0 3px 9px white;
+    box-shadow: 0 3px 9px rgb(220, 20, 60);
     /* Subtle white shadow */
 }
 
@@ -312,7 +312,7 @@ nav ul li a:hover {
 }
 
 .tech-stack span {
-    background: rgb(0, 163, 108);
+    background: red;
     padding: 0.4rem 1rem;
     border-radius: 20px;
     font-size: 0.9rem;
@@ -333,14 +333,14 @@ nav ul li a:hover {
 }
 
 .demo-btn {
-    background: rgb(9, 121, 105);
+    background: red;
     color: white;
 }
 
 .code-btn {
     background: transparent;
     color: black;
-    border: 1px solid #333;
+    border: 1px solid red;
 }
 
 .demo-btn:hover,
@@ -389,7 +389,6 @@ nav ul li a:hover {
     gap: 40px;
     justify-content: space-between;
     align-items: flex-start;
-    /* Align items to the top */
 }
 
 /* Contact Form (Left Side) */
@@ -417,10 +416,10 @@ nav ul li a:hover {
 }
 
 .submit-btn {
-    background: rgb(9, 121, 105);
+    background: black;
     color: white;
     padding: 12px 30px;
-    border: 2px solid rgb(0, 163, 108);
+    border: 2px solid 	rgb(210, 4, 45);
     border-radius: 5px;
     font-size: 1rem;
     cursor: pointer;
@@ -429,7 +428,7 @@ nav ul li a:hover {
 }
 
 .submit-btn:hover {
-    background: rgb(0, 163, 108);
+    background: red;
 }
 
 /* Contact Details + Profile Image (Right Side) */
@@ -446,7 +445,7 @@ nav ul li a:hover {
     margin: 0 auto 20px auto;
     border-radius: 50%;
     overflow: hidden;
-    border: 3px solid white;
+    border: 3px solid red;
 }
 
 .profile-image img {
